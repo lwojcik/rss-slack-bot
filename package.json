@@ -1,0 +1,26 @@
+{
+  "name": "rss-slack-bot",
+  "version": "1.0.0",
+  "description": "Node.js script polling RSS feeds and posting new items to Slack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lwojcik/rss-slack-bot.git"
+  },
+  "keywords": [
+    "slack",
+    "bot",
+    "rss",
+    "atom",
+    "feeds"
+  ],
+  "author": "Łukasz Wójcik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lwojcik/rss-slack-bot/issues"
+  },
+  "homepage": "https://github.com/lwojcik/rss-slack-bot#readme"
+}

@@ -1,0 +1,28 @@
+{
+  "feeds": [
+    {
+      "title": "Clash Royale - Announcements",
+      "url": "https://forum.supercell.com/external.php?type=RSS2&forumids=108",
+      "slackWebhook": "https://hooks.slack.com/WEBHOOK"
+      "provider": "reddit",
+      "preprocessing": []
+    },
+    {
+      "title": "Orange Juice Gaming",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC3S6nIDGJ5OtpC-mbvFA8Ew",
+      "slackWebhook": "https://hooks.slack.com/WEBHOOK",
+      "provider": "youtube",
+      "preprocessing": [
+        {
+          "process": "filterTitles",
+          "params": [
+            {
+              "include": [ "Clash Royale" ],
+              "exclude": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

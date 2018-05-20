@@ -3,17 +3,15 @@
   "version": "1.0.1",
   "description": "Posting RSS updates to selected Slack channels via webhooks",
   "private": true,
-  "main": "start.js",
+  "main": "slackbot.js",
   "scripts": {
-    "start": "node --use_strict start.js"
+    "update": "node --use_strict slackbot.js update"
   },
-  "dependencies": {
-    "body-parser": "1.15.2",
-    "express": "4.14.0",
-    "feed-read": "0.0.1",
-    "lodash": "4.17.2",
-    "mongoose": "4.6.8",
-    "mongoose-find-one-or-create": "0.2.0",
-    "slack-node": "0.2.0"
+  "devDependencies": {
+    "eslint": "4.19.1",
+    "eslint-config-airbnb-base": "12.1.0",
+    "eslint-plugin-import": "2.12.0",
+    "eslint-plugin-node": "6.0.1",
+    "eslint-plugin-promise": "3.7.0"
   }
 }

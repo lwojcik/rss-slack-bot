@@ -1,26 +1,19 @@
 {
   "name": "rss-slack-bot",
-  "version": "1.0.0",
-  "description": "Node.js script polling RSS feeds and posting new items to Slack",
-  "main": "index.js",
+  "version": "1.0.1",
+  "description": "Posting RSS updates to selected Slack channels via webhooks",
+  "private": true,
+  "main": "start.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node --use_strict start.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lwojcik/rss-slack-bot.git"
-  },
-  "keywords": [
-    "slack",
-    "bot",
-    "rss",
-    "atom",
-    "feeds"
-  ],
-  "author": "Łukasz Wójcik",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/lwojcik/rss-slack-bot/issues"
-  },
-  "homepage": "https://github.com/lwojcik/rss-slack-bot#readme"
+  "dependencies": {
+    "body-parser": "1.15.2",
+    "express": "4.14.0",
+    "feed-read": "0.0.1",
+    "lodash": "4.17.2",
+    "mongoose": "4.6.8",
+    "mongoose-find-one-or-create": "0.2.0",
+    "slack-node": "0.2.0"
+  }
 }

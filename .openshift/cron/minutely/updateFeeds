@@ -1,0 +1,6 @@
+#!/bin/bash
+
+minute=$(date +%M)
+if [[ $minute =~ [05]$ ]]; then
+    curl http://polishforces.lukem.net/reset
+fi

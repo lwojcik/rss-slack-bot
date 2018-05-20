@@ -5,7 +5,7 @@
   "private": true,
   "main": "slackbot.js",
   "scripts": {
-    "build": "tsc --outDir dist ./src/*.ts",
+    "build": "tsc",
     "test": "mocha"
   },
   "devDependencies": {
